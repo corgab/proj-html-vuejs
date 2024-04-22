@@ -1,6 +1,9 @@
 @import 'bootstrap/scss/bootstrap';
 
 // reset
+img {
+    width: 100%;
+}
 
 ul, li {
     list-style: none;

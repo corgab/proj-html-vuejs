@@ -1,5 +1,4 @@
 <template>
-    <div class="container--sm my-5">
         <div class="row gap-5">
             <div class="col">
                 <p class="fs-5"> <b>HAC TELLUS, FELIS RISUS AT</b> mattis mattis. Eget euismod semper eget tortor, donec amet, blandit. 
@@ -18,8 +17,19 @@
                 <p class="overlay-text">CALIFORNIA ROLLS - $22</p>
             </div>
         </div>
-
-    </div>
+        <div class="cardwhyus">
+            <div class="row my-5 justify-content-between gap-3">
+                <div v-for="card in 3" class="col text-center">
+                    <img src="../assets/images/sushi-1.png" alt="">
+                    <h1 class="fw-bold fs-3 py-3">THE BEST TABLE IN TOWN</h1>
+                    <p>Sed aenean egestas ut aliquam turpis mauris, molestie. 
+                        Vitae tellus tempor sem id tempus neque, tellus turpis turpis. 
+                        Morbi tortor id gravida aliquet.
+                    </p>
+                    <a href="#" class="btn btn-overlay btn-outline-secondary my-3">EXPLORE THE MENU</a>
+                </div>
+            </div>
+        </div>
 </template>
 
 <script>
@@ -56,4 +66,7 @@ img {
     padding: 10px 0px;
 }
 
+.cardwhyus img {
+    width: 100px;
+}
 </style>

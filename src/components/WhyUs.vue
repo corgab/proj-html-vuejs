@@ -1,4 +1,5 @@
 <template>
+    <div class="container--sm my-5">
         <div class="row gap-5">
             <div class="col">
                 <p class="fs-5"> <b>HAC TELLUS, FELIS RISUS AT</b> mattis mattis. Eget euismod semper eget tortor, donec amet, blandit. 
@@ -30,6 +31,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </template>
 
 <script>

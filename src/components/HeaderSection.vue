@@ -1,7 +1,10 @@
 <template>
     <div class="bg-hero">
-        <NavSection />
-        <HeroSection/>
+        <div class="container">
+            <NavSection />
+            <HeroSection/>
+
+        </div>
     </div>
 </template>
 
@@ -19,7 +22,8 @@ import HeroSection from './HeroSection.vue'
 <style lang="scss" scoped>
 .bg-hero {
     background-image: url(../assets/images/restaurant-thumbnail.jpeg);
-    background-size: 60%;
+    // background-size: 60%, contain;
+    background-size: contain;
     background-position: right;
     background-color: black;
     background-repeat: no-repeat;

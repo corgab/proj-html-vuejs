@@ -5,9 +5,25 @@
 ul, li {
     list-style: none;
     color: currentColor;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+.btn {
+    border-radius: 0;
 }
 
 // common
 .text--gray {
     color: #E8E8E8;
 }
+
+
+

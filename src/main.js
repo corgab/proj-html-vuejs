@@ -7,13 +7,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 // import icons
 import {
 	faStar,
-	faCartShopping
+	faCartShopping,
+	faMinus
 	// faPlay,
 	// faUser,
 } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faStar, faCartShopping)
+library.add(faStar, faCartShopping,faMinus)
 
 import App from './App.vue'
 const app = createApp(App)

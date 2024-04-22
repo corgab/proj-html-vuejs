@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
-        <div class="row align-items-center py-4">
+    <div>
+        <div class="row align-items-center p">
             <div class="col">
                 <img class="d-block logo" src="../assets/images/logo-restaurant.png" alt="">
             </div>
             <div class="col-auto">
-                <ul class="d-flex gap-4 text--gray align-items-center">
+                <ul class="list d-flex gap-4 text--gray align-items-center">
                     <li>Home</li>
                     <li>Culinary History</li>
                     <li>Our Team</li>
@@ -27,13 +27,17 @@
 </script>
 
 <style lang="scss" scoped>
-.container {
-    margin: auto;
-    width: 1700px;
-}
 
 .logo {
     width: 315px;
+}
+
+.list {
+    font-size: 20px;
+}
+
+.p {
+    padding: 30px 0px;
 }
 
 

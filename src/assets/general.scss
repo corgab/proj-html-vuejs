@@ -1,2 +1,13 @@
 @import 'bootstrap/scss/bootstrap';
 
+// reset
+
+ul, li {
+    list-style: none;
+    color: currentColor;
+}
+
+// common
+.text--gray {
+    color: #E8E8E8;
+}

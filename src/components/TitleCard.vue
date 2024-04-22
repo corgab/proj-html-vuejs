@@ -19,7 +19,7 @@
         </div>
         <div class="content">
             <p class="text--gray lh-base"> {{ titolino }}</p>
-            <h1 class="title text-white lh-base"> {{ title }}</h1>
+            <h1 class="title text-white lh-base fw-bold"> {{ title }}</h1>
             <p class="text--gray lh-lg"> {{ desc }}
             </p>
             <a href="#" class="btn btn-outline-light my-4"> {{ btn }}</a>

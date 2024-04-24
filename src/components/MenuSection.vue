@@ -33,6 +33,7 @@ export default {
 }
 
 .marginneg {
-    margin: -30px 0px;
+    margin-top: -30px;
+    margin-bottom: 30px;
 }
 </style>

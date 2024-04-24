@@ -7,6 +7,7 @@
         img="menu252x-1200x1375.jpg"
         />
         <FeedbackSection/>
+        <FoodSection/>
     </div>
 </template>
 
@@ -14,11 +15,13 @@
 import ExperienceSection from './ExperienceSection.vue';
 import WhyUs from './WhyUs.vue';
 import FeedbackSection from './FeedbackSection.vue';
+import FoodSection from './FoodSection.vue';
     export default {
         components: {
             WhyUs,
             ExperienceSection,
-            FeedbackSection
+            FeedbackSection,
+            FoodSection
         }
     }
 </script>

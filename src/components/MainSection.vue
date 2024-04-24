@@ -6,16 +6,19 @@
         btn="EXPLORE THE MENU"
         img="menu252x-1200x1375.jpg"
         />
+        <FeedbackSection/>
     </div>
 </template>
 
 <script>
 import ExperienceSection from './ExperienceSection.vue';
 import WhyUs from './WhyUs.vue';
+import FeedbackSection from './FeedbackSection.vue';
     export default {
         components: {
             WhyUs,
-            ExperienceSection
+            ExperienceSection,
+            FeedbackSection
         }
     }
 </script>

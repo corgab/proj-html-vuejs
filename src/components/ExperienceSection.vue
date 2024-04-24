@@ -1,9 +1,9 @@
 <template>
     <div class="row bg-black gap-custom">
-        <div class="col-auto">
+        <div class="col-6">
             <img :src="'/src/assets/images/'+img" alt="">
         </div>
-        <div class="d-flex card-width gap-5 p">
+        <div class="d-flex col-auto card-width gap-5 p">
             <div class="trattino">
                 <font-awesome-icon class="text--gray icon" :icon="['fas', 'minus']" />
             </div>
@@ -33,10 +33,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-img {
-    width: 700px;
-    height: 100%;
-}
 
 .gap-custom {
     column-gap: 7rem;
@@ -44,10 +40,6 @@ img {
 
 .card-width {
     width: 400px;
-}
-
-.icon {
-    font-size: 20px;
 }
 
 .p {

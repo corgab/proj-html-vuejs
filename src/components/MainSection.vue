@@ -9,6 +9,7 @@
         <NewsSection />
         <ExperienceSection titolino="ENJOY YOUR MEAL AT HOME" title="TAKEOUT NOW AVAILABLE" desc="Pellentesque vitae viverra risus, sagittis.
          Venenatis ridiculus scelerisque nisi in urna nulla non arcu moris tortor." btn="VIEW TAKEOUT MENU" img="slider72x-scaled.jpg"/>
+         <MenuSection/>
     </div>
 </template>
 <script>
@@ -17,13 +18,15 @@ import WhyUs from './WhyUs.vue';
 import FeedbackSection from './FeedbackSection.vue';
 import FoodSection from './FoodSection.vue';
 import NewsSection from './NewsSection.vue';
+import MenuSection from './MenuSection.vue';
 export default {
     components: {
         WhyUs,
         ExperienceSection,
         FeedbackSection,
         FoodSection,
-        NewsSection
+        NewsSection,
+        MenuSection
     }
 }
 </script>
